@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateCustomerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-24T12:51:54" hostname="Saads-MacBook-Pro.local" time="3.032">
+  <properties/>
+  <testcase name="testHelloWorld" classname="CreateCustomerTest" time="3.032"/>
+  <system-out><![CDATA[[ERROR] 2022-04-24 08:51:54,453 BaseTest:21 - Sample ERROR message
+[INFO ] 2022-04-24 08:51:54,458 BaseTest:22 - Sample INFO message
+[WARN ] 2022-04-24 08:51:54,459 BaseTest:23 - Sample WARN message
+{
+    "id": "cus_LZDLWBDXcx3MvU",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1650804717,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "hello",
+    "discount": null,
+    "email": "saad@newConfic.ca",
+    "invoice_prefix": "3F09FA01",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+{
+    "id": "cus_LZDLWBDXcx3MvU",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1650804717,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "hello",
+    "discount": null,
+    "email": "saad@newConfic.ca",
+    "invoice_prefix": "3F09FA01",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": null,
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
