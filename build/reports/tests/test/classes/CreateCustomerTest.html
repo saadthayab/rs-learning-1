@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">3.032s</div>
+<div class="counter">3.632s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">testHelloWorld</td>
-<td class="success">3.032s</td>
+<td class="success">getAccessTokenPayPal</td>
+<td class="success">3.632s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,73 +87,23 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>[ERROR] 2022-04-24 08:51:54,453 BaseTest:21 - Sample ERROR message
-[INFO ] 2022-04-24 08:51:54,458 BaseTest:22 - Sample INFO message
-[WARN ] 2022-04-24 08:51:54,459 BaseTest:23 - Sample WARN message
-{
-    &quot;id&quot;: &quot;cus_LZDLWBDXcx3MvU&quot;,
-    &quot;object&quot;: &quot;customer&quot;,
-    &quot;address&quot;: null,
-    &quot;balance&quot;: 0,
-    &quot;created&quot;: 1650804717,
-    &quot;currency&quot;: null,
-    &quot;default_source&quot;: null,
-    &quot;delinquent&quot;: false,
-    &quot;description&quot;: &quot;hello&quot;,
-    &quot;discount&quot;: null,
-    &quot;email&quot;: &quot;saad@newConfic.ca&quot;,
-    &quot;invoice_prefix&quot;: &quot;3F09FA01&quot;,
-    &quot;invoice_settings&quot;: {
-        &quot;custom_fields&quot;: null,
-        &quot;default_payment_method&quot;: null,
-        &quot;footer&quot;: null
-    },
-    &quot;livemode&quot;: false,
-    &quot;metadata&quot;: {
-        
-    },
-    &quot;name&quot;: null,
-    &quot;next_invoice_sequence&quot;: 1,
-    &quot;phone&quot;: null,
-    &quot;preferred_locales&quot;: [
-        
-    ],
-    &quot;shipping&quot;: null,
-    &quot;tax_exempt&quot;: &quot;none&quot;,
-    &quot;test_clock&quot;: null
+<pre>{
+    &quot;scope&quot;: &quot;https://uri.paypal.com/services/invoicing https://uri.paypal.com/services/vault/payment-tokens/read https://uri.paypal.com/services/disputes/read-buyer https://uri.paypal.com/services/payments/realtimepayment https://uri.paypal.com/services/disputes/update-seller https://uri.paypal.com/services/payments/payment/authcapture openid https://uri.paypal.com/services/disputes/read-seller Braintree:Vault https://uri.paypal.com/services/payments/refund https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/payments/.* https://uri.paypal.com/payments/payouts https://uri.paypal.com/services/vault/payment-tokens/readwrite https://api.paypal.com/v1/vault/credit-card/.* https://uri.paypal.com/services/subscriptions https://uri.paypal.com/services/applications/webhooks&quot;,
+    &quot;access_token&quot;: &quot;A21AAKkmgiymh5V2_uBqjmMZp8NAOlNykuVqysT6idHeq8OsY7WgTGLGO0q4I6tKe7YgoFGqNIeL7JnfvVFJ-dfd_WiC1N09A&quot;,
+    &quot;token_type&quot;: &quot;Bearer&quot;,
+    &quot;app_id&quot;: &quot;APP-80W284485P519543T&quot;,
+    &quot;expires_in&quot;: 32400,
+    &quot;nonce&quot;: &quot;2022-05-06T00:06:49ZMNYlGRTpueEzaoAGOX3hXPSKlPIwVBG3Ag019eE8zXQ&quot;
 }
 {
-    &quot;id&quot;: &quot;cus_LZDLWBDXcx3MvU&quot;,
-    &quot;object&quot;: &quot;customer&quot;,
-    &quot;address&quot;: null,
-    &quot;balance&quot;: 0,
-    &quot;created&quot;: 1650804717,
-    &quot;currency&quot;: null,
-    &quot;default_source&quot;: null,
-    &quot;delinquent&quot;: false,
-    &quot;description&quot;: &quot;hello&quot;,
-    &quot;discount&quot;: null,
-    &quot;email&quot;: &quot;saad@newConfic.ca&quot;,
-    &quot;invoice_prefix&quot;: &quot;3F09FA01&quot;,
-    &quot;invoice_settings&quot;: {
-        &quot;custom_fields&quot;: null,
-        &quot;default_payment_method&quot;: null,
-        &quot;footer&quot;: null
-    },
-    &quot;livemode&quot;: false,
-    &quot;metadata&quot;: {
-        
-    },
-    &quot;name&quot;: null,
-    &quot;next_invoice_sequence&quot;: 1,
-    &quot;phone&quot;: null,
-    &quot;preferred_locales&quot;: [
-        
-    ],
-    &quot;shipping&quot;: null,
-    &quot;tax_exempt&quot;: &quot;none&quot;,
-    &quot;test_clock&quot;: null
+    &quot;scope&quot;: &quot;https://uri.paypal.com/services/invoicing https://uri.paypal.com/services/vault/payment-tokens/read https://uri.paypal.com/services/disputes/read-buyer https://uri.paypal.com/services/payments/realtimepayment https://uri.paypal.com/services/disputes/update-seller https://uri.paypal.com/services/payments/payment/authcapture openid https://uri.paypal.com/services/disputes/read-seller Braintree:Vault https://uri.paypal.com/services/payments/refund https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/payments/.* https://uri.paypal.com/payments/payouts https://uri.paypal.com/services/vault/payment-tokens/readwrite https://api.paypal.com/v1/vault/credit-card/.* https://uri.paypal.com/services/subscriptions https://uri.paypal.com/services/applications/webhooks&quot;,
+    &quot;access_token&quot;: &quot;A21AAKkmgiymh5V2_uBqjmMZp8NAOlNykuVqysT6idHeq8OsY7WgTGLGO0q4I6tKe7YgoFGqNIeL7JnfvVFJ-dfd_WiC1N09A&quot;,
+    &quot;token_type&quot;: &quot;Bearer&quot;,
+    &quot;app_id&quot;: &quot;APP-80W284485P519543T&quot;,
+    &quot;expires_in&quot;: 32400,
+    &quot;nonce&quot;: &quot;2022-05-06T00:06:49ZMNYlGRTpueEzaoAGOX3hXPSKlPIwVBG3Ag019eE8zXQ&quot;
 }
+io.restassured.internal.RestAssuredResponseImpl@69e80a91
 </pre>
 </span>
 </div>
@@ -165,7 +115,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.5.1</a> at Apr. 24, 2022, 8:51:57 a.m.</p>
+<a href="http://www.gradle.org">Gradle 6.3</a> at May 5, 2022, 8:06:49 p.m.</p>
 </div>
 </div>
 </body>

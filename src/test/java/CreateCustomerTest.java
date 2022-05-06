@@ -48,4 +48,21 @@ public class CreateCustomerTest extends BaseTest{
         //System.out.println(response);
 
     }
+
+    @Test
+    public  void  getAccessTokenPayPal() {
+        String client_id = "AZpanHwXXqjUngz7K2G1j4wfRH6IyjpxAA7V5uKQ3hj3E6ecZGkqYw7YdNTte1h-gy8Y8H2UWGskhG_H";
+        String secret ="EAz-njmDSl6jjC-wZwuuqM0TsFonlPw9Db255Dvg02HDuCl1NLluW1Ln0EKKoorPjstJyX-niRl1fDP2";
+
+        Response access_token = given().param("grant_type", "client_credentials")
+                .auth().preemptive()
+                .basic(client_id, secret)
+                .post("https://api-m.sandbox.paypal.com/v1/oauth2/token");
+//                .jsonPath()
+//                .get("access_token").toString();
+        System.out.println(access_token.prettyPrint());
+        System.out.println(access_token);
+        //return access_token;
+
+    }
 }
